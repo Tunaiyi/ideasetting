@@ -1,0 +1,12 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="save all and make">
+      <action id="SaveAll" />
+      <action id="MakeModule" />
+    </macro>
+    <macro name="save and compile">
+      <action id="SaveAll" />
+      <action id="Compile" />
+    </macro>
+  </component>
+</application>

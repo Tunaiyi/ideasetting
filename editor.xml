@@ -1,0 +1,34 @@
+<application>
+  <component name="DefaultFont">
+    <option name="FONT_SIZE" value="13" />
+    <option name="LINE_SPACING" value="1.2" />
+  </component>
+  <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="" />
+    <option name="SHOW_QUICK_DOC_ON_MOUSE_OVER_ELEMENT" value="true" />
+    <option name="QUICK_DOC_ON_MOUSE_OVER_DELAY_MS" value="3000" />
+    <option name="IS_ALL_SOFTWRAPS_SHOWN" value="true" />
+    <option name="PRESELECT_RENAME" value="false" />
+  </component>
+  <component name="InspectionProfileManager">
+    <info color="525229">
+      <option name="EFFECT_COLOR" value="fff900" />
+      <option name="EFFECT_TYPE" value="5" />
+      <option name="myName" value="BigWarning" />
+      <option name="myVal" value="50" />
+      <option name="myExternalName" value="BigWarning" />
+      <option name="myDefaultAttributes" />
+    </info>
+    <list size="9">
+      <item index="0" class="java.lang.String" itemvalue="BigWarning" />
+      <item index="1" class="java.lang.String" itemvalue="INFORMATION" />
+      <item index="2" class="java.lang.String" itemvalue="UNUSED ENTRY" />
+      <item index="3" class="java.lang.String" itemvalue="TYPO" />
+      <item index="4" class="java.lang.String" itemvalue="SERVER PROBLEM" />
+      <item index="5" class="java.lang.String" itemvalue="WEAK WARNING" />
+      <item index="6" class="java.lang.String" itemvalue="INFO" />
+      <item index="7" class="java.lang.String" itemvalue="WARNING" />
+      <item index="8" class="java.lang.String" itemvalue="ERROR" />
+    </list>
+  </component>
+</application>

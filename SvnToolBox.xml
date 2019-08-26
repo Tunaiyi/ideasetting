@@ -1,0 +1,11 @@
+<application>
+  <component name="SvnToolBoxAppConfig">
+    <option name="regularR" value="187" />
+    <option name="regularG" value="187" />
+    <option name="regularB" value="187" />
+    <option name="customDarkColor" value="true" />
+    <option name="darkR" value="96" />
+    <option name="darkG" value="96" />
+    <option name="darkB" value="96" />
+  </component>
+</application>

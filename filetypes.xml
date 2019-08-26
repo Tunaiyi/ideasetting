@@ -1,0 +1,36 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.idea;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;vssver.scc;vssver2.scc;" />
+    <extensionMap>
+      <mapping pattern=".setting" type="Eclipse" />
+      <mapping pattern="*.js.flow" type="Flow" />
+      <mapping pattern="*.js.flow" type="Flow" />
+      <mapping pattern="Form阵型模型xls" type="Native" />
+      <mapping pattern="Former阵位模型xls" type="Native" />
+      <mapping pattern="PayPlanOwnerModel" type="PLAIN_TEXT" />
+      <mapping pattern="mvn_publish.gradle" type="PLAIN_TEXT" />
+      <mapping pattern="Pay_v2_支付接口" type="PLAIN_TEXT" />
+      <mapping pattern="tt" type="PLAIN_TEXT" />
+      <mapping pattern="222" type="PLAIN_TEXT" />
+      <mapping pattern="Aaa" type="PLAIN_TEXT" />
+      <mapping pattern="SendMessage" type="PLAIN_TEXT" />
+      <mapping pattern="BaseID" type="PLAIN_TEXT" />
+      <mapping pattern="fdsafa" type="PLAIN_TEXT" />
+      <mapping ext="mvl" type="PLAIN_TEXT" />
+      <mapping ext="ini" type="PLAIN_TEXT" />
+      <mapping ext="tpls" type="PLAIN_TEXT" />
+      <mapping ext="tpl" type="PLAIN_TEXT" />
+      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
+      <mapping pattern="ssh_password" type="Properties" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="dockerfile" approved="true" type="textmate" />
+      <removed_mapping ext="makefile" approved="true" type="textmate" />
+      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="snakefile" approved="true" type="textmate" />
+      <mapping pattern=".gitignore_global" type="Git file" />
+    </extensionMap>
+  </component>
+</application>

@@ -1,0 +1,55 @@
+<templateSet group="sg">
+  <template name="psdto" value="public static $CLASS_NAME$ $ITEM$2DTO($END$) {&#10;    $CLASS_NAME$ dto = new $CLASS_NAME$();&#10;    return dto;&#10;}" description="DTO static factory method" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <variable name="ITEM" expression="" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="btbhac" value="@VarDoc(&quot;$FEATURE_DESC$$$$BATTLE_DESC$战斗_$开始&quot;)&#10;$FEATURE$_$$$BATTLE_TYPE$_BATTLE_$$START($FEATURE_ID$_$BATTLE_BH_ID$_001, SGBehavior.$FEATURE$_$$$BATTLE_TYPE$_BATTLE),&#10;@VarDoc(&quot;$FEATURE_DESC$$$$BATTLE_DESC$战斗_$攻方胜利奖励&quot;)&#10;$FEATURE$_$$$BATTLE_TYPE$_BATTLE_$$ATT_WIN($FEATURE_ID$_$BATTLE_BH_ID$_002, SGBehavior.$FEATURE$_$$$BATTLE_TYPE$_BATTLE),&#10;@VarDoc(&quot;$FEATURE_DESC$$$$BATTLE_DESC$战斗_$攻方失败奖励&quot;)&#10;$FEATURE$_$$$BATTLE_TYPE$_BATTLE_$$ATT_LOSE($FEATURE_ID$_$BATTLE_BH_ID$_003, SGBehavior.$FEATURE$_$$$BATTLE_TYPE$_BATTLE),&#10;@VarDoc(&quot;$FEATURE_DESC$$$$BATTLE_DESC$战斗_$守方胜利奖励&quot;)&#10;$FEATURE$_$$$BATTLE_TYPE$_BATTLE_$$DEF_WIN($FEATURE_ID$_$BATTLE_BH_ID$_004, SGBehavior.$FEATURE$_$$$BATTLE_TYPE$_BATTLE),&#10;@VarDoc(&quot;$FEATURE_DESC$$$$BATTLE_DESC$战斗_$守方目标失败奖励&quot;)&#10;$FEATURE$_$$$BATTLE_TYPE$_BATTLE_$$DEF_LOSE($FEATURE_ID$_$BATTLE_BH_ID$_005, SGBehavior.$FEATURE$_$$$BATTLE_TYPE$_BATTLE),&#10;@VarDoc(&quot;$FEATURE_DESC$$$$BATTLE_DESC$战斗_$守方目标胜利奖励&quot;)&#10;$FEATURE$_$$$BATTLE_TYPE$_BATTLE_$$TAR_WIN($FEATURE_ID$_$BATTLE_BH_ID$_006, SGBehavior.$FEATURE$_$$$BATTLE_TYPE$_BATTLE),&#10;@VarDoc(&quot;$FEATURE_DESC$$$$BATTLE_DESC$战斗_$守方失败奖励&quot;)&#10;$FEATURE$_$$$BATTLE_TYPE$_BATTLE_$$TAR_LOSE($FEATURE_ID$_$BATTLE_BH_ID$_007, SGBehavior.$FEATURE$_$$$BATTLE_TYPE$_BATTLE),&#10;@VarDoc(&quot;$FEATURE_DESC$$$$BATTLE_DESC$部队派出$$-&quot;)&#10;$FEATURE$_$$$BATTLE_TYPE$_SEND_$$NORMAL($FEATURE_ID$_$SEND_BH_ID$_000, SGBehavior.$FEATURE$_$$$BATTLE_TYPE$_SEND),&#10;@VarDoc(&quot;$FEATURE_DESC$$$$BATTLE_DESC$部队归队$$-&quot;)&#10;$FEATURE$_$$$BATTLE_TYPE$_REJOIN_$$NORMAL($FEATURE_ID$_$REJOIN_BH_ID$_000, SGBehavior.$FEATURE$_$$$BATTLE_TYPE$_REJOIN),&#10;&#10;@VarDoc(&quot;$FEATURE_DESC$$$$BATTLE_DESC$战斗&quot;)&#10;$FEATURE$_$$$BATTLE_TYPE$_BATTLE($FEATURE_ID$_$BATTLE_BH_ID$, SGFeature.$FEATURE$),&#10;@VarDoc(&quot;$FEATURE_DESC$$$$BATTLE_DESC$部队派出&quot;)&#10;$FEATURE$_$$$BATTLE_TYPE$_SEND($FEATURE_ID$_$SEND_BH_ID$, SGFeature.$FEATURE$),&#10;@VarDoc(&quot;$FEATURE_DESC$$$$BATTLE_DESC$部队归队&quot;)&#10;$FEATURE$_$$$BATTLE_TYPE$_REJOIN($FEATURE_ID$_$REJOIN_BH_ID$, SGFeature.$FEATURE$),&#10;" description="Battle Behavior and Action" toReformat="false" toShortenFQNames="true">
+    <variable name="FEATURE_DESC" expression="" defaultValue="&quot;系统&quot;" alwaysStopAt="true" />
+    <variable name="BATTLE_DESC" expression="" defaultValue="&quot;战斗类型&quot;" alwaysStopAt="true" />
+    <variable name="FEATURE" expression="" defaultValue="&quot;FEATURE&quot;" alwaysStopAt="true" />
+    <variable name="BATTLE_TYPE" expression="" defaultValue="&quot;BATTLE_TYPE&quot;" alwaysStopAt="true" />
+    <variable name="FEATURE_ID" expression="" defaultValue="&quot;00&quot;" alwaysStopAt="true" />
+    <variable name="BATTLE_BH_ID" expression="" defaultValue="&quot;00&quot;" alwaysStopAt="true" />
+    <variable name="SEND_BH_ID" expression="" defaultValue="&quot;00&quot;" alwaysStopAt="true" />
+    <variable name="REJOIN_BH_ID" expression="" defaultValue="&quot;00&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="emi" value="@VarDoc(&quot;$DESC$&quot;)&#10;$ITEM$($ID$),&#10;" description="enum item &amp; VarDoc" toReformat="false" toShortenFQNames="true">
+    <variable name="ITEM" expression="" defaultValue="&quot;ITEM&quot;" alwaysStopAt="true" />
+    <variable name="ID" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <variable name="DESC" expression="" defaultValue="&quot;DESC&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="btac" value="@VarDoc(&quot;$FEATURE_DESC$$$$BATTLE_DESC$战斗_$开始&quot;)&#10;$FEATURE$_$$$BATTLE_TYPE$_BATTLE_$$START($FEATURE_ID$_$BATTLE_BH_ID$_001, SGBehavior.$FEATURE$_$$$BATTLE_TYPE$_BATTLE),&#10;@VarDoc(&quot;$FEATURE_DESC$$$$BATTLE_DESC$战斗_$攻方胜利奖励&quot;)&#10;$FEATURE$_$$$BATTLE_TYPE$_BATTLE_$$ATT_WIN($FEATURE_ID$_$BATTLE_BH_ID$_002, SGBehavior.$FEATURE$_$$$BATTLE_TYPE$_BATTLE),&#10;@VarDoc(&quot;$FEATURE_DESC$$$$BATTLE_DESC$战斗_$攻方失败奖励&quot;)&#10;$FEATURE$_$$$BATTLE_TYPE$_BATTLE_$$ATT_LOSE($FEATURE_ID$_$BATTLE_BH_ID$_003, SGBehavior.$FEATURE$_$$$BATTLE_TYPE$_BATTLE),&#10;@VarDoc(&quot;$FEATURE_DESC$$$$BATTLE_DESC$战斗_$守方胜利奖励&quot;)&#10;$FEATURE$_$$$BATTLE_TYPE$_BATTLE_$$DEF_WIN($FEATURE_ID$_$BATTLE_BH_ID$_004, SGBehavior.$FEATURE$_$$$BATTLE_TYPE$_BATTLE),&#10;@VarDoc(&quot;$FEATURE_DESC$$$$BATTLE_DESC$战斗_$守方目标失败奖励&quot;)&#10;$FEATURE$_$$$BATTLE_TYPE$_BATTLE_$$DEF_LOSE($FEATURE_ID$_$BATTLE_BH_ID$_005, SGBehavior.$FEATURE$_$$$BATTLE_TYPE$_BATTLE),&#10;@VarDoc(&quot;$FEATURE_DESC$$$$BATTLE_DESC$战斗_$守方目标胜利奖励&quot;)&#10;$FEATURE$_$$$BATTLE_TYPE$_BATTLE_$$TAR_WIN($FEATURE_ID$_$BATTLE_BH_ID$_006, SGBehavior.$FEATURE$_$$$BATTLE_TYPE$_BATTLE),&#10;@VarDoc(&quot;$FEATURE_DESC$$$$BATTLE_DESC$战斗_$守方失败奖励&quot;)&#10;$FEATURE$_$$$BATTLE_TYPE$_BATTLE_$$TAR_LOSE($FEATURE_ID$_$BATTLE_BH_ID$_007, SGBehavior.$FEATURE$_$$$BATTLE_TYPE$_BATTLE),&#10;@VarDoc(&quot;$FEATURE_DESC$$$$BATTLE_DESC$部队派出$$-&quot;)&#10;$FEATURE$_$$$BATTLE_TYPE$_SEND_$$NORMAL($FEATURE_ID$_$SEND_BH_ID$_000, SGBehavior.$FEATURE$_$$$BATTLE_TYPE$_SEND),&#10;@VarDoc(&quot;$FEATURE_DESC$$$$BATTLE_DESC$部队归队$$-&quot;)&#10;$FEATURE$_$$$BATTLE_TYPE$_REJOIN_$$NORMAL($FEATURE_ID$_$REJOIN_BH_ID$_000, SGBehavior.$FEATURE$_$$$BATTLE_TYPE$_REJOIN)," description="Battle Behavior and Action" toReformat="false" toShortenFQNames="true">
+    <variable name="FEATURE_DESC" expression="" defaultValue="&quot;系统&quot;" alwaysStopAt="true" />
+    <variable name="BATTLE_DESC" expression="" defaultValue="&quot;战斗类型&quot;" alwaysStopAt="true" />
+    <variable name="FEATURE" expression="" defaultValue="&quot;FEATURE&quot;" alwaysStopAt="true" />
+    <variable name="BATTLE_TYPE" expression="" defaultValue="&quot;BATTLE_TYPE&quot;" alwaysStopAt="true" />
+    <variable name="FEATURE_ID" expression="" defaultValue="&quot;00&quot;" alwaysStopAt="true" />
+    <variable name="BATTLE_BH_ID" expression="" defaultValue="&quot;00&quot;" alwaysStopAt="true" />
+    <variable name="SEND_BH_ID" expression="" defaultValue="&quot;00&quot;" alwaysStopAt="true" />
+    <variable name="REJOIN_BH_ID" expression="" defaultValue="&quot;00&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="jnbhac" value="@VarDoc(&quot;$FEATURE_DESC$$$$BATTLE_DESC$部队派出$$-&quot;)&#10;$FEATURE$_$$$BATTLE_TYPE$_SEND_$$NORMAL($FEATURE_ID$_$SEND_BH_ID$_000, SGBehavior.$FEATURE$_$$$BATTLE_TYPE$_SEND),&#10;@VarDoc(&quot;$FEATURE_DESC$$$$BATTLE_DESC$部队归队$$-&quot;)&#10;$FEATURE$_$$$BATTLE_TYPE$_REJOIN_$$NORMAL($FEATURE_ID$_$REJOIN_BH_ID$_000, SGBehavior.$FEATURE$_$$$BATTLE_TYPE$_REJOIN),&#10;&#10;@VarDoc(&quot;$FEATURE_DESC$$$$BATTLE_DESC$部队派出&quot;)&#10;$FEATURE$_$$$BATTLE_TYPE$_SEND($FEATURE_ID$_$SEND_BH_ID$, SGFeature.$FEATURE$),&#10;@VarDoc(&quot;$FEATURE_DESC$$$$BATTLE_DESC$部队归队&quot;)&#10;$FEATURE$_$$$BATTLE_TYPE$_REJOIN($FEATURE_ID$_$REJOIN_BH_ID$, SGFeature.$FEATURE$),&#10;" description="Battle Behavior and Action" toReformat="false" toShortenFQNames="true">
+    <variable name="FEATURE_DESC" expression="" defaultValue="&quot;系统&quot;" alwaysStopAt="true" />
+    <variable name="BATTLE_DESC" expression="" defaultValue="&quot;战斗类型&quot;" alwaysStopAt="true" />
+    <variable name="FEATURE" expression="" defaultValue="&quot;FEATURE&quot;" alwaysStopAt="true" />
+    <variable name="BATTLE_TYPE" expression="" defaultValue="&quot;BATTLE_TYPE&quot;" alwaysStopAt="true" />
+    <variable name="FEATURE_ID" expression="" defaultValue="&quot;00&quot;" alwaysStopAt="true" />
+    <variable name="SEND_BH_ID" expression="" defaultValue="&quot;00&quot;" alwaysStopAt="true" />
+    <variable name="REJOIN_BH_ID" expression="" defaultValue="&quot;00&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

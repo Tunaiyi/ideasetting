@@ -1,0 +1,24 @@
+<templateSet group="gj">
+  <template name="gjbtac" value="@VarDoc(&quot;$feature_desc$$$$battle_type_desc$$$战斗&quot;)&#10;$feature$_$$$battle_type$_BATTLE_$$BATTLE($feature_id$_$behavior_id$_001, GJBehavior.$feature$_$$$battle_type$_BATTLE),&#10;@VarDoc(&quot;$feature_desc$$$$battle_type_desc$$$攻方胜利&quot;)&#10;$feature$_$$$battle_type$_BATTLE_$$ATT_WIN($feature_id$_$behavior_id$_002, GJBehavior.$feature$_$$$battle_type$_BATTLE),&#10;@VarDoc(&quot;$feature_desc$$$$battle_type_desc$$$攻方失败&quot;)&#10;$feature$_$$$battle_type$_BATTLE_$$ATT_LOSE($feature_id$_$behavior_id$_003, GJBehavior.$feature$_$$$battle_type$_BATTLE),&#10;@VarDoc(&quot;$feature_desc$$$$battle_type_desc$$$守方胜利&quot;)&#10;$feature$_$$$battle_type$_BATTLE_$$DEF_WIN($feature_id$_$behavior_id$_004, GJBehavior.$feature$_$$$battle_type$_BATTLE),&#10;@VarDoc(&quot;$feature_desc$$$$battle_type_desc$$$守方失败&quot;)&#10;$feature$_$$$battle_type$_BATTLE_$$DEF_LOSE($feature_id$_$behavior_id$_005, GJBehavior.$feature$_$$$battle_type$_BATTLE),&#10;@VarDoc(&quot;$feature_desc$$$$battle_type_desc$$$胜利抽签&quot;)&#10;$feature$_$$$battle_type$_BATTLE_$$WIN_DRAW($feature_id$_$behavior_id$_006, GJBehavior.$feature$_$$$battle_type$_BATTLE),&#10;@VarDoc(&quot;$feature_desc$$$$battle_type_desc$$$失败抽签&quot;)&#10;$feature$_$$$battle_type$_BATTLE_$$LOSE_DRAW($feature_id$_$behavior_id$_007, GJBehavior.$feature$_$$$battle_type$_BATTLE),&#10;" description="挂机-战斗Action模板" toReformat="false" toShortenFQNames="true">
+    <variable name="feature_desc" expression="" defaultValue="&quot;系统类型&quot;" alwaysStopAt="true" />
+    <variable name="battle_type_desc" expression="" defaultValue="&quot;战斗类型&quot;" alwaysStopAt="true" />
+    <variable name="feature" expression="" defaultValue="&quot;Feature&quot;" alwaysStopAt="true" />
+    <variable name="battle_type" expression="" defaultValue="&quot;BattleType&quot;" alwaysStopAt="true" />
+    <variable name="feature_id" expression="" defaultValue="&quot;00&quot;" alwaysStopAt="true" />
+    <variable name="behavior_id" expression="" defaultValue="&quot;00&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="gjbtacbh" value="@VarDoc(&quot;$feature_desc$$$$battle_type_desc$&quot;)&#10;$feature$_$$$battle_type$_BATTLE($feature_id$_$behavior_id$, GJFeature.$feature$),&#10;&#10;@VarDoc(&quot;$feature_desc$$$$battle_type_desc$$$战斗&quot;)&#10;$feature$_$$$battle_type$_BATTLE_$$BATTLE($feature_id$_$behavior_id$_001, GJBehavior.$feature$_$$$battle_type$_BATTLE),&#10;@VarDoc(&quot;$feature_desc$$$$battle_type_desc$$$攻方胜利&quot;)&#10;$feature$_$$$battle_type$_BATTLE_$$ATT_WIN($feature_id$_$behavior_id$_002, GJBehavior.$feature$_$$$battle_type$_BATTLE),&#10;@VarDoc(&quot;$feature_desc$$$$battle_type_desc$$$攻方失败&quot;)&#10;$feature$_$$$battle_type$_BATTLE_$$ATT_LOSE($feature_id$_$behavior_id$_003, GJBehavior.$feature$_$$$battle_type$_BATTLE),&#10;@VarDoc(&quot;$feature_desc$$$$battle_type_desc$$$守方胜利&quot;)&#10;$feature$_$$$battle_type$_BATTLE_$$DEF_WIN($feature_id$_$behavior_id$_004, GJBehavior.$feature$_$$$battle_type$_BATTLE),&#10;@VarDoc(&quot;$feature_desc$$$$battle_type_desc$$$守方失败&quot;)&#10;$feature$_$$$battle_type$_BATTLE_$$DEF_LOSE($feature_id$_$behavior_id$_005, GJBehavior.$feature$_$$$battle_type$_BATTLE),&#10;@VarDoc(&quot;$feature_desc$$$$battle_type_desc$$$胜利抽签&quot;)&#10;$feature$_$$$battle_type$_BATTLE_$$WIN_DRAW($feature_id$_$behavior_id$_006, GJBehavior.$feature$_$$$battle_type$_BATTLE),&#10;@VarDoc(&quot;$feature_desc$$$$battle_type_desc$$$失败抽签&quot;)&#10;$feature$_$$$battle_type$_BATTLE_$$LOSE_DRAW($feature_id$_$behavior_id$_007, GJBehavior.$feature$_$$$battle_type$_BATTLE)," description="挂机-战斗Action-Behavior模板" toReformat="true" toShortenFQNames="true">
+    <variable name="feature_desc" expression="" defaultValue="&quot;系统类型&quot;" alwaysStopAt="true" />
+    <variable name="battle_type_desc" expression="" defaultValue="&quot;战斗类型&quot;" alwaysStopAt="true" />
+    <variable name="feature" expression="" defaultValue="&quot;Feature&quot;" alwaysStopAt="true" />
+    <variable name="battle_type" expression="" defaultValue="&quot;BattleType&quot;" alwaysStopAt="true" />
+    <variable name="feature_id" expression="" defaultValue="&quot;00&quot;" alwaysStopAt="true" />
+    <variable name="behavior_id" expression="" defaultValue="&quot;00&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

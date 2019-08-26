@@ -1,0 +1,21 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="Scala/Expressions/Convert from infix expression" />
+    <ignoreAction name="Java/Declaration/Bind parameters to fields" />
+    <ignoreAction name="Java/Declaration/Generate overloaded method with default parameter values" />
+    <ignoreAction name="Java/Declaration/Implement Abstract Method" />
+    <ignoreAction name="Java/Declaration/Add Array Creation Expression" />
+    <ignoreAction name="XML/Expand Empty Tag" />
+    <ignoreAction name="Language Injection/Inject language or reference" />
+    <ignoreAction name="JavaScript/Other/Replace Double-Quoted String with Single-Quoted String" />
+    <ignoreAction name="Java/Imports/Add Single-Member Static Import" />
+    <ignoreAction name="Java/Declaration/Split Declaration" />
+    <ignoreAction name="Java/Declaration/Move initializer to constructor" />
+    <ignoreAction name="Java/Refactorings/Introduce local variable" />
+    <ignoreAction name="Java/I18N/Convert to Basic Latin" />
+    <ignoreAction name="Java/Imports/Add On Demand Static Import" />
+    <ignoreAction name="Java/Annotations/Edit method contract" />
+    <ignoreAction name="Java/Declaration/Make method default" />
+    <ignoreAction name="Java/Modifiers/Make Private" />
+  </component>
+</application>

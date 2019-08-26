@@ -1,0 +1,87 @@
+<application>
+  <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
+    <group value="Pause" is_action="true" action_type="-1" position="2">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Debugger" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Resume" is_action="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Debugger" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Synchronize" is_action="true" action_type="1" position="0">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="MakeModule" is_action="true" action_type="1" position="1">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Toolbar Run Actions" />
+      <path value="Toolbar Make Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ScrollFromSource" is_action="true" action_type="1" position="1">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Debugger.AddToWatch" is_action="true" action_type="1" position="1">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Debugger" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Compile" is_action="true" action_type="1" position="2">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Toolbar Run Actions" />
+      <path value="Toolbar Make Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Synchronize" is_action="true" action_type="1" position="2">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="GotoNextError" is_action="true" action_type="1" position="2">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Pause" is_action="true" action_type="1" position="3">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Debugger" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Resume" is_action="true" action_type="1" position="4">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Debugger" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Debugger.PopFrame" is_action="true" action_type="1" position="5">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Debugger" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ViewBreakpoints" is_action="true" action_type="1" position="7">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Debugger" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <action id="ScrollFromSource" icon="$USER_HOME$/Documents/临时文件/tb-icons/localScope.png" />
+    <action id="MakeModule" icon="$APPLICATION_HOME_DIR$/Resources/IJ.help/Contents/Resources/Shared/icon_ts_compile_all.png" />
+    <action id="GotoNextError" icon="$USER_HOME$/Documents/临时文件/tb-icons/errorDialog.png" />
+    <action id="Compile" icon="$APPLICATION_HOME_DIR$/Resources/IJ.help/Contents/Resources/Shared/icon_ts_compile_current_file.png" />
+  </component>
+</application>

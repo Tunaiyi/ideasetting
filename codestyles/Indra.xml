@@ -1,0 +1,78 @@
+<code_scheme name="Indra" version="173">
+  <option name="LINE_SEPARATOR" value="&#10;" />
+  <option name="VISIBILITY" value="EscalateVisible" />
+  <option name="USE_EXTERNAL_ANNOTATIONS" value="true" />
+  <option name="INSERT_INNER_CLASS_IMPORTS" value="true" />
+  <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="10" />
+  <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="1" />
+  <option name="PACKAGES_TO_USE_IMPORT_ON_DEMAND">
+    <value>
+      <package name="java.awt" withSubpackages="false" static="false" />
+      <package name="com.tny" withSubpackages="true" static="false" />
+      <package name="com.lq" withSubpackages="true" static="false" />
+      <package name="com.tny.game.suite" withSubpackages="true" static="false" />
+      <package name="javax.swing" withSubpackages="false" static="false" />
+    </value>
+  </option>
+  <option name="RIGHT_MARGIN" value="150" />
+  <option name="HTML_ALIGN_TEXT" value="true" />
+  <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="thead,tbody,tfoot" />
+  <option name="HTML_ENFORCE_QUOTES" value="true" />
+  <option name="FORMATTER_TAGS_ENABLED" value="true" />
+  <HTMLCodeStyleSettings>
+    <option name="HTML_ALIGN_TEXT" value="true" />
+    <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="thead,tbody,tfoot" />
+    <option name="HTML_ENFORCE_QUOTES" value="true" />
+  </HTMLCodeStyleSettings>
+  <JavaCodeStyleSettings>
+    <option name="VISIBILITY" value="EscalateVisible" />
+    <option name="REPLACE_INSTANCEOF_AND_CAST" value="true" />
+    <option name="INSERT_INNER_CLASS_IMPORTS" value="true" />
+    <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="500" />
+    <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="500" />
+    <option name="PACKAGES_TO_USE_IMPORT_ON_DEMAND">
+      <value>
+        <package name="java.awt" withSubpackages="false" static="false" />
+        <package name="com.tny" withSubpackages="true" static="false" />
+        <package name="com.lq" withSubpackages="true" static="false" />
+        <package name="com.tny.game" withSubpackages="true" static="false" />
+        <package name="javax.swing" withSubpackages="false" static="false" />
+      </value>
+    </option>
+    <option name="JD_KEEP_INVALID_TAGS" value="false" />
+    <option name="JD_KEEP_EMPTY_EXCEPTION" value="false" />
+  </JavaCodeStyleSettings>
+  <Properties>
+    <option name="KEEP_BLANK_LINES" value="true" />
+  </Properties>
+  <XML>
+    <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
+  </XML>
+  <codeStyleSettings language="HTML">
+    <option name="RIGHT_MARGIN" value="180" />
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="TAB_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="JAVA">
+    <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
+    <option name="LINE_COMMENT_ADD_SPACE" value="true" />
+    <option name="BLANK_LINES_AROUND_METHOD_IN_INTERFACE" value="0" />
+    <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
+  </codeStyleSettings>
+  <codeStyleSettings language="JSP">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="TAB_SIZE" value="2" />
+      <option name="USE_TAB_CHARACTER" value="true" />
+      <option name="SMART_TABS" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="JSPX">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="TAB_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
+</code_scheme>

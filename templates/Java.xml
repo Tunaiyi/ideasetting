@@ -1,0 +1,93 @@
+<templateSet group="Java">
+  <template name="slog" value="public static final Logger LOGGER = LoggerFactory.getLogger($className$.class);" description="slf4j logger" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="className" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="@sw_unchecked" value="@SuppressWarnings(&quot;unchecked&quot;)" description="@SuppressWarnings(&quot;unchecked&quot;)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="@sw_unused" value="@SuppressWarnings(&quot;unused&quot;)" description="@SuppressWarnings(&quot;unused&quot;)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="smil" value="System.currentTimeMillis()" description="System.currentTimeMillis()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="nbuilder" value="private $className$(){}&#10;&#10;public static $className$ newBuilder() {&#10;    return new $className$();&#10;}" description="newBuilder" toReformat="false" toShortenFQNames="true">
+    <variable name="className" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sysout" value="System.out.println($END$);" description="System.out.println($END$);" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="todto" value="public static $className$ $entity$2DTO($entityClass$ object) {&#10;    $className$ dto = new $className$();&#10;    $END$&#10;    return dto;&#10;}&#10;" description="dto statice method" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="className" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="entity" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="entityClass" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="tomap" value="Collectors.toMap($ENTRY_KEY$, $ENTRY_VALUE$)" description="Collectors.toMap" toReformat="false" toShortenFQNames="true">
+    <variable name="ENTRY_KEY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ENTRY_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="tomapsf" value="Collectors.toMap($ENTRY_KEY$, ObjectAide::self)" description="Collectors.toMap" toReformat="false" toShortenFQNames="true">
+    <variable name="ENTRY_KEY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="sylazy" value="if ($object$ != null)&#10;    return $object$;&#10;synchronized ($synObject$) {&#10;    if ($object$ != null)&#10;        return $object$;&#10;    $object$ = $END$ &#10;}&#10;return $object$;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="object" expression="" defaultValue="&quot;new_object&quot;" alwaysStopAt="true" />
+    <variable name="synObject" expression="" defaultValue="&quot;this&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ctime" value="System.currentTimeMillis()" description="System.currentTimeMillis()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="/cdoc" value="/**&#10; * $END$&#10; * &lt;p&gt;&#10; *&#10; * @author $user$&#10; * @date $data$ $time$&#10; */&#10;" description="类注释" toReformat="false" toShortenFQNames="true">
+    <variable name="user" expression="" defaultValue="&quot;Kun Yang&quot;" alwaysStopAt="false" />
+    <variable name="data" expression="date()" defaultValue="" alwaysStopAt="false" />
+    <variable name="time" expression="time()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="/mdoc" value="/**&#10; * $END$&#10; * &lt;p&gt;&#10; *&#10; * @author $user$&#10; * @date $data$ $time$&#10; * @param $params$&#10; * @return $returns$&#10; */&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="user" expression="" defaultValue="&quot;Kun Yang&quot;" alwaysStopAt="true" />
+    <variable name="data" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="time" expression="time()" defaultValue="" alwaysStopAt="true" />
+    <variable name="params" expression="methodParameters()" defaultValue="" alwaysStopAt="true" />
+    <variable name="returns" expression="methodReturnType()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="fm" value="format(&quot;$MESSAGE$&quot;, $PARAMS$$END$)" description="format(&quot;message {} {}&quot;, param1, param2)" toReformat="false" toShortenFQNames="true">
+    <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
