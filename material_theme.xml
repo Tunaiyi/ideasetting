@@ -24,11 +24,10 @@
     <option name="treeFontSize" value="14" />
     <option name="leftTreeIndent" value="8" />
     <option name="rightTreeIndent" value="8" />
-    <option name="settingsSelectedTab" value="4" />
     <option name="tabsHeight" value="16" />
     <option name="accentColor" value="6496ff" />
     <option name="highlightColor" value="6496ff" />
-    <option name="selectedTheme" value="DARKER" />
+    <option name="selectedTheme" value="CUSTOM" />
     <option name="userId" value="-34b949d2:16822e9d50f:-8000" />
     <option name="version" value="4.3.2" />
   </component>
