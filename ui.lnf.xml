@@ -1,4 +1,7 @@
 <application>
+  <component name="DependencyUISettings">
+    <option name="UI_FLATTEN_PACKAGES" value="false" />
+  </component>
   <component name="UISettings">
     <option name="COLOR_BLINDNESS" value="deuteranopia" />
     <option name="CONSOLE_COMMAND_HISTORY_LIMIT" value="1000" />
