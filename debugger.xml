@@ -3,7 +3,9 @@
     <option name="RUN_HOTSWAP_AFTER_COMPILE" value="RunHotswapAlways" />
   </component>
   <component name="XDebuggerSettings">
-    <data-views />
+    <data-views>
+      <option name="showLibraryStackFrames" value="false" />
+    </data-views>
     <general>
       <evaluation-dialog-mode>CODE_FRAGMENT</evaluation-dialog-mode>
       <scroll-to-center>true</scroll-to-center>
