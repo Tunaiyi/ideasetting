@@ -27,7 +27,6 @@
   <JavaCodeStyleSettings>
     <option name="VISIBILITY" value="EscalateVisible" />
     <option name="ANNOTATION_PARAMETER_WRAP" value="1" />
-    <option name="ALIGN_MULTILINE_ANNOTATION_PARAMETERS" value="true" />
     <option name="INSERT_INNER_CLASS_IMPORTS" value="true" />
     <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="2" />
     <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="1" />
@@ -57,6 +56,8 @@
   <codeStyleSettings language="JAVA">
     <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
     <option name="LINE_COMMENT_ADD_SPACE" value="true" />
+    <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+    <option name="KEEP_CONTROL_STATEMENT_IN_ONE_LINE" value="false" />
     <option name="BLANK_LINES_AROUND_METHOD_IN_INTERFACE" value="0" />
     <option name="ALIGN_MULTILINE_BINARY_OPERATION" value="true" />
     <option name="ALIGN_MULTILINE_TERNARY_OPERATION" value="true" />
@@ -72,6 +73,7 @@
     <option name="TERNARY_OPERATION_WRAP" value="1" />
     <option name="TERNARY_OPERATION_SIGNS_ON_NEXT_LINE" value="true" />
     <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
+    <option name="KEEP_MULTIPLE_EXPRESSIONS_IN_ONE_LINE" value="true" />
     <option name="FOR_STATEMENT_WRAP" value="1" />
     <option name="ARRAY_INITIALIZER_WRAP" value="1" />
     <option name="ASSIGNMENT_WRAP" value="1" />
