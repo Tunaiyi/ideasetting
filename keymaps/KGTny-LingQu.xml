@@ -224,6 +224,10 @@
   <action id="ImportProject">
     <keyboard-shortcut first-keystroke="ctrl meta alt i" second-keystroke="p" />
   </action>
+  <action id="InnerBuilder.generate">
+    <keyboard-shortcut first-keystroke="shift alt b" />
+    <keyboard-shortcut first-keystroke="shift b" />
+  </action>
   <action id="InsertLiveTemplate">
     <keyboard-shortcut first-keystroke="shift meta l" />
   </action>
