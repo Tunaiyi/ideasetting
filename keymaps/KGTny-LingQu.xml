@@ -295,6 +295,10 @@
     <keyboard-shortcut first-keystroke="ctrl meta alt close_bracket" />
   </action>
   <action id="ParameterInfo" />
+  <action id="PasteMultiple">
+    <keyboard-shortcut first-keystroke="shift meta v" />
+    <keyboard-shortcut first-keystroke="ctrl alt v" />
+  </action>
   <action id="PerforceDirect.Edit" />
   <action id="PrevSplitter">
     <keyboard-shortcut first-keystroke="shift alt tab" />
