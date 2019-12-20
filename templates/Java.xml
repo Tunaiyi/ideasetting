@@ -90,4 +90,14 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="@sw_uc_rt" value="@SuppressWarnings({&quot;unchecked&quot;, &quot;rawtypes&quot;})" description="@SuppressWarnings({&quot;unchecked&quot;, &quot;rawtypes&quot;})" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="@sw_rawtypes" value="@SuppressWarnings(&quot;rawtypes&quot;)" description="@SuppressWarnings(&quot;rawtypes&quot;)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
