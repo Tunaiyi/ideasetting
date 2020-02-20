@@ -1,8 +1,4 @@
 <keymap version="1" name="KGTny-LingQu" parent="Mac OS X 10.5+">
-  <action id="AceAction">
-    <keyboard-shortcut first-keystroke="ctrl semicolon" />
-    <keyboard-shortcut first-keystroke="meta j" />
-  </action>
   <action id="AceJumpAction">
     <keyboard-shortcut first-keystroke="meta semicolon" />
     <keyboard-shortcut first-keystroke="meta j" />
@@ -14,40 +10,26 @@
     <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
   <action id="ActivateGradleToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl alt g" />
+    <keyboard-shortcut first-keystroke="alt g" />
   </action>
   <action id="ActivateMavenProjectsToolWindow">
     <keyboard-shortcut first-keystroke="alt m" />
   </action>
-  <action id="ActivateMessagesToolWindow">
-    <keyboard-shortcut first-keystroke="meta 4" />
-  </action>
-  <action id="ActivateRunToolWindow" />
-  <action id="BuildArtifact">
-    <keyboard-shortcut first-keystroke="ctrl alt b" />
-  </action>
+  <action id="ActivateMessagesToolWindow" />
   <action id="CallHierarchy">
     <keyboard-shortcut first-keystroke="meta h" />
   </action>
-  <action id="ChangesView.AddUnversioned">
-    <keyboard-shortcut first-keystroke="meta alt a" />
-    <keyboard-shortcut first-keystroke="meta b" second-keystroke="equals" />
-  </action>
   <action id="ChangesView.Commit">
     <keyboard-shortcut first-keystroke="meta b" second-keystroke="c" />
-  </action>
-  <action id="ChangesView.RemoveDeleted">
-    <keyboard-shortcut first-keystroke="meta b" second-keystroke="minus" />
   </action>
   <action id="ChangesView.Revert">
     <keyboard-shortcut first-keystroke="meta alt z" />
     <keyboard-shortcut first-keystroke="meta b" second-keystroke="z" />
   </action>
-  <action id="CheckinFiles">
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="meta k" />
     <keyboard-shortcut first-keystroke="meta b" second-keystroke="c" />
-    <keyboard-shortcut first-keystroke="meta alt 1" />
   </action>
-  <action id="CheckinProject" />
   <action id="ChooseRunConfiguration" />
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="ctrl space" />
@@ -86,9 +68,7 @@
   </action>
   <action id="Debugger.PopFrame">
     <keyboard-shortcut first-keystroke="meta escape" />
-    <keyboard-shortcut first-keystroke="shift meta f11" />
   </action>
-  <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ShowSettingsPopup" />
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="f4" />
@@ -155,7 +135,7 @@
     <keyboard-shortcut first-keystroke="alt s" />
   </action>
   <action id="ExternalSystem_3e8d3a9fgj-proto6bf91deegenerateProto">
-    <keyboard-shortcut first-keystroke="ctrl meta alt f4" />
+    <keyboard-shortcut first-keystroke="meta f4" second-keystroke="p" />
   </action>
   <action id="FileChooser.GotoProject">
     <keyboard-shortcut first-keystroke="alt 2" />
@@ -192,15 +172,12 @@
   </action>
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="meta b" second-keystroke="u" />
-    <keyboard-shortcut first-keystroke="meta alt f5" />
   </action>
   <action id="Git.Stash">
     <keyboard-shortcut first-keystroke="meta b" second-keystroke="s" />
-    <keyboard-shortcut first-keystroke="ctrl meta alt s" />
   </action>
   <action id="Git.Unstash">
     <keyboard-shortcut first-keystroke="meta b" second-keystroke="t" />
-    <keyboard-shortcut first-keystroke="ctrl meta alt u" />
   </action>
   <action id="GoToBuilder">
     <keyboard-shortcut first-keystroke="shift alt b" />
@@ -219,16 +196,6 @@
   <action id="GuiDesigner.Duplicate" />
   <action id="GuiDesigner.ShrinkSelection" />
   <action id="HippieCompletion" />
-  <action id="ImportModule">
-    <keyboard-shortcut first-keystroke="ctrl meta alt i" second-keystroke="m" />
-  </action>
-  <action id="ImportProject">
-    <keyboard-shortcut first-keystroke="ctrl meta alt i" second-keystroke="p" />
-  </action>
-  <action id="InnerBuilder.generate">
-    <keyboard-shortcut first-keystroke="shift alt b" />
-    <keyboard-shortcut first-keystroke="shift b" />
-  </action>
   <action id="InsertLiveTemplate">
     <keyboard-shortcut first-keystroke="shift meta l" />
   </action>
@@ -287,27 +254,13 @@
     <keyboard-shortcut first-keystroke="shift n" />
   </action>
   <action id="NextDiff" />
-  <action id="NextSplitter">
-    <keyboard-shortcut first-keystroke="alt tab" />
-    <keyboard-shortcut first-keystroke="ctrl meta alt period" />
-  </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
-    <keyboard-shortcut first-keystroke="ctrl meta alt close_bracket" />
   </action>
   <action id="ParameterInfo" />
-  <action id="PasteMultiple">
-    <keyboard-shortcut first-keystroke="shift meta v" />
-    <keyboard-shortcut first-keystroke="ctrl alt v" />
-  </action>
   <action id="PerforceDirect.Edit" />
-  <action id="PrevSplitter">
-    <keyboard-shortcut first-keystroke="shift alt tab" />
-    <keyboard-shortcut first-keystroke="ctrl meta alt comma" />
-  </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift meta open_bracket" />
-    <keyboard-shortcut first-keystroke="ctrl meta alt open_bracket" />
   </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="meta alt l" />
@@ -338,10 +291,6 @@
     <keyboard-shortcut first-keystroke="f10" />
   </action>
   <action id="Scala.RunConsole" />
-  <action id="Scala.ShowImplicits">
-    <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
-    <keyboard-shortcut first-keystroke="shift ctrl alt add" />
-  </action>
   <action id="ScrollFromSource">
     <keyboard-shortcut first-keystroke="meta 0" />
   </action>
@@ -382,14 +331,9 @@
   </action>
   <action id="Subversion.Lock">
     <keyboard-shortcut first-keystroke="meta b" second-keystroke="l" />
-    <keyboard-shortcut first-keystroke="meta alt f10" />
-  </action>
-  <action id="Subversion.SetProperty">
-    <keyboard-shortcut first-keystroke="meta alt 0" />
   </action>
   <action id="Subversion.Unlock">
     <keyboard-shortcut first-keystroke="meta b" second-keystroke="k" />
-    <keyboard-shortcut first-keystroke="meta alt f11" />
   </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
@@ -416,12 +360,8 @@
   </action>
   <action id="UML.ApplyCurrentLayout" />
   <action id="Uml.ShowDiff" />
-  <action id="UnsplitAll">
-    <keyboard-shortcut first-keystroke="ctrl meta alt m" />
-  </action>
   <action id="UpdateFiles">
     <keyboard-shortcut first-keystroke="meta b" second-keystroke="a" />
-    <keyboard-shortcut first-keystroke="meta alt f2" />
   </action>
   <action id="UpperLowerCapitalize.LowerCaseAction">
     <keyboard-shortcut first-keystroke="alt l" />
@@ -434,19 +374,12 @@
   <action id="UsageView.Rerun" />
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="meta b" second-keystroke="p" />
-    <keyboard-shortcut first-keystroke="meta alt f3" />
   </action>
   <action id="Vcs.ShowHistoryForBlock">
     <keyboard-shortcut first-keystroke="meta b" second-keystroke="h" />
   </action>
   <action id="Vcs.UpdateProject">
     <keyboard-shortcut first-keystroke="ctrl alt u" />
-  </action>
-  <action id="android.deploy.ApplyChanges">
-    <keyboard-shortcut first-keystroke="ctrl meta r" />
-  </action>
-  <action id="android.deploy.CodeSwap">
-    <keyboard-shortcut first-keystroke="shift ctrl meta r" />
   </action>
   <action id="de.netnexus.CamelCasePlugin.ToggleCamelCase">
     <keyboard-shortcut first-keystroke="ctrl alt c" />
