@@ -59,5 +59,10 @@
     <pattern useCustomColors="true" pattern="\b(info)\b.*">
       <option name="FOREGROUND" value="eff00" />
     </pattern>
+    <pattern useCustomColors="true" case-sensitive="true" pattern="\b(TT)\b.*\b(TT)">
+      <option name="FOREGROUND" value="242424" />
+      <option name="BACKGROUND" value="f4ffa7" />
+      <option name="FONT_TYPE" value="1" />
+    </pattern>
   </component>
 </application>
