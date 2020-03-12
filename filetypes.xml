@@ -10,6 +10,7 @@
       <mapping pattern="Aaa" type="PLAIN_TEXT" />
       <mapping pattern="fdsafa" type="PLAIN_TEXT" />
       <mapping pattern="SendMessage" type="PLAIN_TEXT" />
+      <mapping pattern="VerificationClient" type="PLAIN_TEXT" />
       <mapping pattern="Pay_v2_支付接口" type="PLAIN_TEXT" />
       <mapping pattern="IndraLogClass" type="PLAIN_TEXT" />
       <mapping pattern="PayPlanOwnerModel" type="PLAIN_TEXT" />
