@@ -50,7 +50,7 @@
     </list>
   </component>
   <component name="TodoConfiguration">
-    <pattern case-sensitive="true" pattern="\b(todo|fixme)\b.*" />
+    <pattern pattern="\b(todo|fixme)\b.*" />
     <pattern icon="question" useCustomColors="true" pattern="\b(warn)\b.*">
       <option name="FOREGROUND" value="ffff00" />
     </pattern>
@@ -59,7 +59,7 @@
       <option name="BACKGROUND" value="ff0000" />
       <option name="FONT_TYPE" value="3" />
     </pattern>
-    <pattern useCustomColors="true" case-sensitive="true" pattern="\b(info)\b.*">
+    <pattern useCustomColors="true" pattern="\b(info)\b.*">
       <option name="FOREGROUND" value="eff00" />
       <option name="FONT_TYPE" value="2" />
     </pattern>
