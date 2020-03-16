@@ -293,6 +293,13 @@
     <keyboard-shortcut first-keystroke="meta m" />
     <keyboard-shortcut first-keystroke="ctrl alt m" />
   </action>
+  <action id="MemberPushDown">
+    <keyboard-shortcut first-keystroke="shift d" />
+  </action>
+  <action id="MembersPullUp">
+    <keyboard-shortcut first-keystroke="shift p" />
+    <keyboard-shortcut first-keystroke="shift u" />
+  </action>
   <action id="MinimizeCurrentWindow" />
   <action id="ModuleSettings">
     <keyboard-shortcut first-keystroke="alt comma" />
