@@ -10,6 +10,7 @@
       <mapping pattern="Aaa" type="PLAIN_TEXT" />
       <mapping pattern="fdsafa" type="PLAIN_TEXT" />
       <mapping pattern="SendMessage" type="PLAIN_TEXT" />
+      <mapping pattern="VerificationClient" type="PLAIN_TEXT" />
       <mapping pattern="Pay_v2_支付接口" type="PLAIN_TEXT" />
       <mapping pattern="IndraLogClass" type="PLAIN_TEXT" />
       <mapping pattern="PayPlanOwnerModel" type="PLAIN_TEXT" />
@@ -20,9 +21,8 @@
       <mapping ext="tpls" type="PLAIN_TEXT" />
       <mapping ext="mvl" type="PLAIN_TEXT" />
       <mapping ext="ini" type="PLAIN_TEXT" />
-      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <mapping pattern="ssh_password" type="Properties" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
