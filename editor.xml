@@ -76,7 +76,7 @@
     <pattern useCustomColors="true" pattern="\b(T2)\b.*\b(2T)">
       <option name="FOREGROUND" value="353535" />
       <option name="BACKGROUND" value="b0e9ff" />
-      <option name="FONT_TYPE" value="2" />
+      <option name="FONT_TYPE" value="3" />
     </pattern>
     <pattern useCustomColors="true" pattern="\b(T3)\b.*\b(3T)">
       <option name="FOREGROUND" value="353535" />
