@@ -2,9 +2,6 @@
   <component name="DebuggerSettings">
     <option name="RUN_HOTSWAP_AFTER_COMPILE" value="RunHotswapAlways" />
   </component>
-  <component name="NodeRendererSettings">
-    <option name="ALTERNATIVE_COLLECTION_VIEW_ENABLED" value="false" />
-  </component>
   <component name="XDebuggerSettings">
     <data-views />
     <general>
