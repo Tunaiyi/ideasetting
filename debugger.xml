@@ -1,6 +1,8 @@
 <application>
   <component name="DebuggerSettings">
     <option name="RUN_HOTSWAP_AFTER_COMPILE" value="RunHotswapAlways" />
+    <option name="COMPILE_BEFORE_HOTSWAP" value="false" />
+    <option name="RESUME_ONLY_CURRENT_THREAD" value="true" />
   </component>
   <component name="XDebuggerSettings">
     <data-views />
