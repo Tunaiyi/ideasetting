@@ -12,11 +12,11 @@
       <mapping pattern="SendMessage" type="PLAIN_TEXT" />
       <mapping pattern="VerificationClient" type="PLAIN_TEXT" />
       <mapping pattern="Pay_v2_支付接口" type="PLAIN_TEXT" />
+      <mapping pattern="BaseID" type="PLAIN_TEXT" />
       <mapping pattern="IndraLogClass" type="PLAIN_TEXT" />
       <mapping pattern="PayPlanOwnerModel" type="PLAIN_TEXT" />
-      <mapping pattern="mvn_publish.gradle" type="PLAIN_TEXT" />
-      <mapping pattern="BaseID" type="PLAIN_TEXT" />
       <mapping pattern="222" type="PLAIN_TEXT" />
+      <mapping pattern="mvn_publish.gradle" type="PLAIN_TEXT" />
       <mapping ext="tpl" type="PLAIN_TEXT" />
       <mapping ext="tpls" type="PLAIN_TEXT" />
       <mapping ext="mvl" type="PLAIN_TEXT" />

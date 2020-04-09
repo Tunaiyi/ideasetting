@@ -1,16 +1,22 @@
 <application>
   <component name="MaterialThemeConfig">
+    <option name="compactMenus" value="true" />
+    <option name="compactStatusBar" value="true" />
+    <option name="compactTables" value="true" />
+    <option name="contrastMode" value="true" />
+    <option name="customTreeIndentEnabled" value="true" />
+    <option name="highContrast" value="true" />
+    <option name="highlightColorEnabled" value="true" />
+    <option name="styledDirectories" value="true" />
     <option name="allowDataCollection" value="true" />
     <option name="compactDropdowns" value="true" />
     <option name="compactSidebar" value="true" />
-    <option name="fileIcons" value="false" />
-    <option name="highlightColorEnabled" value="true" />
+    <option name="isHighlightColorEnabled" value="true" />
     <option name="isCompactMenus" value="true" />
     <option name="isCompactStatusBar" value="true" />
     <option name="isCompactTables" value="true" />
     <option name="isContrastMode" value="true" />
     <option name="isCustomTreeIndentEnabled" value="true" />
-    <option name="isDecoratedFolders" value="false" />
     <option name="isHighContrast" value="true" />
     <option name="isStyledDirectories" value="true" />
     <option name="isTabsShadow" value="false" />
@@ -18,17 +24,16 @@
     <option name="pristineConfig" value="false" />
     <option name="treeFontSizeEnabled" value="true" />
     <option name="upperCaseButtons" value="false" />
-    <option name="useMaterialIcons" value="false" />
     <option name="indicatorStyle" value="Dot" />
     <option name="tabOpacity" value="6" />
     <option name="treeFontSize" value="14" />
     <option name="leftTreeIndent" value="8" />
     <option name="rightTreeIndent" value="8" />
     <option name="tabsHeight" value="16" />
-    <option name="accentColor" value="6496ff" />
+    <option name="accentColor" value="ff9800" />
     <option name="highlightColor" value="6496ff" />
-    <option name="selectedTheme" value="CUSTOM" />
+    <option name="selectedTheme" value="DARKER" />
     <option name="userId" value="-34b949d2:16822e9d50f:-8000" />
-    <option name="version" value="4.11.5" />
+    <option name="version" value="5.1.0" />
   </component>
 </application>
