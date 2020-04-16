@@ -1,7 +1,10 @@
 <application>
   <component name="DebuggerSettings">
+    <option name="SHOW_ALTERNATIVE_SOURCE" value="false" />
+    <option name="ENABLE_MEMORY_AGENT" value="true" />
     <option name="RUN_HOTSWAP_AFTER_COMPILE" value="RunHotswapAlways" />
     <option name="COMPILE_BEFORE_HOTSWAP" value="false" />
+    <option name="KILL_PROCESS_IMMEDIATELY" value="true" />
     <option name="RESUME_ONLY_CURRENT_THREAD" value="true" />
     <filter>
       <option name="PATTERN" value="com.sun.*" />
