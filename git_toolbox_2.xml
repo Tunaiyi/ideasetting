@@ -1,6 +1,5 @@
 <application>
   <component name="GitToolBoxAppSettings2">
-    <option name="showBlame" value="true" />
     <option name="decorationParts">
       <list>
         <DecorationPartConfig>
@@ -21,5 +20,6 @@
       </list>
     </option>
     <option name="previousVersionMigrated" value="true" />
+    <option name="version" value="2" />
   </component>
 </application>
