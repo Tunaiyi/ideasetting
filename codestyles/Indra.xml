@@ -58,7 +58,12 @@
     <option name="LINE_COMMENT_ADD_SPACE" value="true" />
     <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
     <option name="KEEP_CONTROL_STATEMENT_IN_ONE_LINE" value="false" />
-    <option name="BLANK_LINES_AROUND_METHOD_IN_INTERFACE" value="0" />
+    <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="1" />
+    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+    <option name="KEEP_BLANK_LINES_BETWEEN_PACKAGE_DECLARATION_AND_HEADER" value="1" />
+    <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="1" />
+    <option name="BLANK_LINES_AFTER_CLASS_HEADER" value="1" />
+    <option name="BLANK_LINES_BEFORE_CLASS_END" value="1" />
     <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
     <option name="ALIGN_MULTILINE_TERNARY_OPERATION" value="true" />
     <option name="SPACE_AFTER_TYPE_CAST" value="false" />
