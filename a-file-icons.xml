@@ -1,6 +1,5 @@
 <application>
   <component name="AtomFileIconsConfig">
-    <option name="isMonochromeIcons" value="true" />
     <option name="monochromeColor" value="465a7a" />
     <option name="isHideFileIcons" value="true" />
   </component>
