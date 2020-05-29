@@ -1,0 +1,11 @@
+<application>
+  <component name="Atom Icon Associations Config">
+    <option name="customFileAssociations">
+      <CustomAssociations>
+        <option name="customAssociations">
+          <RegexAssociation />
+        </option>
+      </CustomAssociations>
+    </option>
+  </component>
+</application>
