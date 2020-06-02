@@ -11,6 +11,7 @@
     <option name="SELECT_AUTOPOPUP_SUGGESTIONS_BY_CHARS" value="true" />
     <option name="SHOW_FULL_SIGNATURES_IN_PARAMETER_INFO" value="true" />
     <option name="REFORMAT_ON_PASTE" value="1" />
+    <option name="ADD_IMPORTS_ON_PASTE" value="3" />
     <option name="USE_INSTANCEOF_ON_EQUALS_PARAMETER" value="true" />
     <option name="USE_ACCESSORS_IN_EQUALS_HASHCODE" value="true" />
     <option name="OPTIMIZE_IMPORTS_ON_THE_FLY" value="true" />
@@ -18,13 +19,11 @@
     <option name="JSP_ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
   </component>
   <component name="DefaultFont">
-    <option name="FONT_SIZE" value="13" />
     <option name="FONT_FAMILY" value="Source Code Pro" />
     <option name="SECONDARY_FONT_FAMILY" value="Menlo" />
   </component>
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="" />
-    <option name="SHOW_QUICK_DOC_ON_MOUSE_OVER_ELEMENT" value="true" />
     <option name="IS_ALL_SOFTWRAPS_SHOWN" value="true" />
     <option name="PRESELECT_RENAME" value="false" />
   </component>
