@@ -49,7 +49,8 @@
     </list>
   </component>
   <component name="TodoConfiguration">
-    <pattern pattern="\b(todo|fixme)\b.*" />
+    <multiLine>false</multiLine>
+    <pattern case-sensitive="true" pattern="\b(todo|fixme)\b.*" />
     <pattern icon="question" useCustomColors="true" case-sensitive="true" pattern="\b(WARN)\b.*">
       <option name="FOREGROUND" value="ffff00" />
     </pattern>
