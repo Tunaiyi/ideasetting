@@ -49,17 +49,16 @@
     </list>
   </component>
   <component name="TodoConfiguration">
-    <multiLine>false</multiLine>
     <pattern case-sensitive="true" pattern="\b(todo|fixme)\b.*" />
-    <pattern icon="question" useCustomColors="true" case-sensitive="true" pattern="\b(WARN)\b.*">
+    <pattern useCustomColors="true" case-sensitive="true" pattern="\b(WARN )\b.*">
       <option name="FOREGROUND" value="ffff00" />
     </pattern>
-    <pattern icon="important" useCustomColors="true" case-sensitive="true" pattern="\b(ERROR)\b.*">
+    <pattern icon="important" useCustomColors="true" case-sensitive="true" pattern="\b(ERROR )\b.*">
       <option name="FOREGROUND" value="242424" />
       <option name="BACKGROUND" value="ff0000" />
       <option name="FONT_TYPE" value="3" />
     </pattern>
-    <pattern useCustomColors="true" case-sensitive="true" pattern="\b(INFO)\b.*">
+    <pattern icon="question" useCustomColors="true" case-sensitive="true" pattern="\b(INFO )\b.*">
       <option name="FOREGROUND" value="eff00" />
       <option name="FONT_TYPE" value="2" />
     </pattern>
