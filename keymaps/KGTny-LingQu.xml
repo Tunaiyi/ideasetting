@@ -36,9 +36,6 @@
   <action id="ChangesView.Commit">
     <keyboard-shortcut first-keystroke="meta b" second-keystroke="c" />
   </action>
-  <action id="ChangesView.Move">
-    <keyboard-shortcut first-keystroke="shift alt m" />
-  </action>
   <action id="ChangesView.RemoveDeleted">
     <keyboard-shortcut first-keystroke="meta b" second-keystroke="minus" />
   </action>
@@ -52,22 +49,11 @@
   </action>
   <action id="CheckinProject" />
   <action id="ChooseRunConfiguration" />
-  <action id="ClassNameCompletion">
-    <keyboard-shortcut first-keystroke="alt 1" />
-  </action>
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="ctrl space" />
     <keyboard-shortcut first-keystroke="alt slash" />
   </action>
   <action id="CodeGlance.toggle" />
-  <action id="CommentByBlockComment">
-    <keyboard-shortcut first-keystroke="meta alt slash" />
-    <keyboard-shortcut first-keystroke="meta alt divide" />
-    <keyboard-shortcut first-keystroke="shift ctrl slash" />
-    <keyboard-shortcut first-keystroke="shift ctrl divide" />
-    <keyboard-shortcut first-keystroke="shift meta divide" />
-    <keyboard-shortcut first-keystroke="shift meta divide" />
-  </action>
   <action id="CommittedChanges.Revert">
     <keyboard-shortcut first-keystroke="meta b" second-keystroke="r" />
   </action>
@@ -86,9 +72,6 @@
     <mouse-shortcut keystroke="meta button1" />
     <mouse-shortcut keystroke="button2" />
   </action>
-  <action id="Console.TableResult.SetDefault">
-    <keyboard-shortcut first-keystroke="ctrl meta alt d" />
-  </action>
   <action id="CopyElement" />
   <action id="CopyPaths">
     <keyboard-shortcut first-keystroke="ctrl c" />
@@ -104,16 +87,6 @@
   <action id="Debugger.PopFrame">
     <keyboard-shortcut first-keystroke="meta escape" />
     <keyboard-shortcut first-keystroke="shift meta f11" />
-  </action>
-  <action id="Diff.ApplyLeftSide" />
-  <action id="Diff.ApplyRightSide" />
-  <action id="Diff.NextChange">
-    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
-    <keyboard-shortcut first-keystroke="ctrl meta right" />
-  </action>
-  <action id="Diff.PrevChange">
-    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
-    <keyboard-shortcut first-keystroke="ctrl meta left" />
   </action>
   <action id="Diff.ShowSettingsPopup" />
   <action id="EditSource">
@@ -232,24 +205,6 @@
     <keyboard-shortcut first-keystroke="shift alt b" />
     <keyboard-shortcut first-keystroke="ctrl alt b" />
   </action>
-  <action id="GotoBookmark1">
-    <keyboard-shortcut first-keystroke="ctrl f1" />
-  </action>
-  <action id="GotoBookmark2">
-    <keyboard-shortcut first-keystroke="ctrl f2" />
-  </action>
-  <action id="GotoBookmark3">
-    <keyboard-shortcut first-keystroke="ctrl f3" />
-  </action>
-  <action id="GotoBookmark4">
-    <keyboard-shortcut first-keystroke="ctrl f4" />
-  </action>
-  <action id="GotoBookmark5">
-    <keyboard-shortcut first-keystroke="ctrl f5" />
-  </action>
-  <action id="GotoBookmark6">
-    <keyboard-shortcut first-keystroke="ctrl f6" />
-  </action>
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="meta button1" />
     <mouse-shortcut keystroke="button2" />
@@ -269,15 +224,8 @@
   <action id="ImportProject">
     <keyboard-shortcut first-keystroke="ctrl meta alt i" second-keystroke="p" />
   </action>
-  <action id="InnerBuilder.generate">
-    <keyboard-shortcut first-keystroke="shift alt b" />
-    <keyboard-shortcut first-keystroke="shift b" />
-  </action>
   <action id="InsertLiveTemplate">
     <keyboard-shortcut first-keystroke="shift meta l" />
-  </action>
-  <action id="IntroduceConstant">
-    <keyboard-shortcut first-keystroke="ctrl meta c" />
   </action>
   <action id="JumpToLastWindow" />
   <action id="LocalHistory.ShowHistory">
@@ -293,19 +241,13 @@
     <keyboard-shortcut first-keystroke="meta m" />
     <keyboard-shortcut first-keystroke="ctrl alt m" />
   </action>
-  <action id="MemberPushDown">
-    <keyboard-shortcut first-keystroke="shift d" />
-  </action>
-  <action id="MembersPullUp">
-    <keyboard-shortcut first-keystroke="shift p" />
-    <keyboard-shortcut first-keystroke="shift u" />
-  </action>
   <action id="MinimizeCurrentWindow" />
   <action id="ModuleSettings">
     <keyboard-shortcut first-keystroke="alt comma" />
   </action>
   <action id="Move">
-    <keyboard-shortcut first-keystroke="shift m" />
+    <keyboard-shortcut first-keystroke="ctrl f6" />
+    <keyboard-shortcut first-keystroke="shift meta m" />
   </action>
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="ctrl meta alt left" />
@@ -340,9 +282,6 @@
     <keyboard-shortcut first-keystroke="shift n" />
   </action>
   <action id="NextDiff" />
-  <action id="NextEditorTab">
-    <keyboard-shortcut first-keystroke="alt close_bracket" />
-  </action>
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="alt tab" />
     <keyboard-shortcut first-keystroke="ctrl meta alt period" />
@@ -352,24 +291,14 @@
     <keyboard-shortcut first-keystroke="ctrl meta alt close_bracket" />
   </action>
   <action id="ParameterInfo" />
-  <action id="PasteMultiple">
-    <keyboard-shortcut first-keystroke="shift meta v" />
-    <keyboard-shortcut first-keystroke="ctrl alt v" />
-  </action>
   <action id="PerforceDirect.Edit" />
   <action id="PrevSplitter">
     <keyboard-shortcut first-keystroke="shift alt tab" />
     <keyboard-shortcut first-keystroke="ctrl meta alt comma" />
   </action>
-  <action id="PreviousEditorTab">
-    <keyboard-shortcut first-keystroke="alt open_bracket" />
-  </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift meta open_bracket" />
     <keyboard-shortcut first-keystroke="ctrl meta alt open_bracket" />
-  </action>
-  <action id="QuickChangeScheme">
-    <keyboard-shortcut first-keystroke="alt back_quote" />
   </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="meta alt l" />
@@ -487,16 +416,13 @@
   </action>
   <action id="UpperLowerCapitalize.LowerCaseAction">
     <keyboard-shortcut first-keystroke="alt l" />
-    <keyboard-shortcut first-keystroke="ctrl y" />
+    <keyboard-shortcut first-keystroke="shift meta y" />
   </action>
   <action id="UpperLowerCapitalize.UpperCaseAction">
     <keyboard-shortcut first-keystroke="alt p" />
     <keyboard-shortcut first-keystroke="shift meta x" />
   </action>
   <action id="UsageView.Rerun" />
-  <action id="Vcs.MoveChangedLinesToChangelist">
-    <keyboard-shortcut first-keystroke="shift ctrl m" />
-  </action>
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="meta b" second-keystroke="p" />
     <keyboard-shortcut first-keystroke="meta alt f3" />
@@ -506,12 +432,6 @@
   </action>
   <action id="Vcs.UpdateProject">
     <keyboard-shortcut first-keystroke="ctrl alt u" />
-  </action>
-  <action id="android.deploy.ApplyChanges">
-    <keyboard-shortcut first-keystroke="ctrl meta r" />
-  </action>
-  <action id="android.deploy.CodeSwap">
-    <keyboard-shortcut first-keystroke="shift ctrl meta r" />
   </action>
   <action id="de.netnexus.CamelCasePlugin.ToggleCamelCase">
     <keyboard-shortcut first-keystroke="ctrl alt c" />
