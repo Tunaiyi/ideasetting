@@ -27,7 +27,8 @@
   <JavaCodeStyleSettings>
     <option name="VISIBILITY" value="EscalateVisible" />
     <option name="REPLACE_INSTANCEOF_AND_CAST" value="true" />
-    <option name="ANNOTATION_PARAMETER_WRAP" value="5" />
+    <option name="DO_NOT_WRAP_AFTER_SINGLE_ANNOTATION" value="true" />
+    <option name="ANNOTATION_PARAMETER_WRAP" value="1" />
     <option name="INSERT_INNER_CLASS_IMPORTS" value="true" />
     <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="2" />
     <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="1" />
@@ -42,7 +43,8 @@
         <package name="javax.swing" withSubpackages="false" static="false" />
       </value>
     </option>
-    <option name="RECORD_COMPONENTS_WRAP" value="5" />
+    <option name="RECORD_COMPONENTS_WRAP" value="0" />
+    <option name="ALIGN_MULTILINE_RECORDS" value="false" />
     <option name="JD_DO_NOT_WRAP_ONE_LINE_COMMENTS" value="true" />
   </JavaCodeStyleSettings>
   <XML>
@@ -58,7 +60,6 @@
   <codeStyleSettings language="JAVA">
     <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
     <option name="LINE_COMMENT_ADD_SPACE" value="true" />
-    <option name="KEEP_LINE_BREAKS" value="false" />
     <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
     <option name="KEEP_CONTROL_STATEMENT_IN_ONE_LINE" value="false" />
     <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="1" />
@@ -84,14 +85,15 @@
     <option name="TERNARY_OPERATION_SIGNS_ON_NEXT_LINE" value="true" />
     <option name="FOR_STATEMENT_WRAP" value="1" />
     <option name="ARRAY_INITIALIZER_WRAP" value="1" />
+    <option name="ARRAY_INITIALIZER_LBRACE_ON_NEXT_LINE" value="true" />
+    <option name="ARRAY_INITIALIZER_RBRACE_ON_NEXT_LINE" value="true" />
     <option name="ASSIGNMENT_WRAP" value="1" />
     <option name="PLACE_ASSIGNMENT_SIGN_ON_NEXT_LINE" value="true" />
     <option name="ASSERT_STATEMENT_WRAP" value="1" />
     <option name="ASSERT_STATEMENT_COLON_ON_NEXT_LINE" value="true" />
     <option name="IF_BRACE_FORCE" value="1" />
-    <option name="FIELD_ANNOTATION_WRAP" value="5" />
     <option name="PARAMETER_ANNOTATION_WRAP" value="5" />
-    <option name="VARIABLE_ANNOTATION_WRAP" value="5" />
+    <option name="VARIABLE_ANNOTATION_WRAP" value="2" />
     <option name="ENUM_CONSTANTS_WRAP" value="2" />
     <option name="WRAP_ON_TYPING" value="0" />
     <arrangement>
