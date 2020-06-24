@@ -58,7 +58,7 @@
       <option name="BACKGROUND" value="ff0000" />
       <option name="FONT_TYPE" value="3" />
     </pattern>
-    <pattern icon="question" useCustomColors="true" pattern="\b(INFO )\b.*">
+    <pattern icon="question" useCustomColors="true" pattern="\b( ).*(INFO )\b.*">
       <option name="FOREGROUND" value="eff00" />
       <option name="FONT_TYPE" value="2" />
     </pattern>

@@ -28,7 +28,6 @@
     <option name="VISIBILITY" value="EscalateVisible" />
     <option name="REPLACE_INSTANCEOF_AND_CAST" value="true" />
     <option name="ANNOTATION_PARAMETER_WRAP" value="5" />
-    <option name="ALIGN_MULTILINE_ANNOTATION_PARAMETERS" value="true" />
     <option name="INSERT_INNER_CLASS_IMPORTS" value="true" />
     <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="2" />
     <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="1" />
@@ -90,6 +89,7 @@
     <option name="ASSERT_STATEMENT_WRAP" value="1" />
     <option name="ASSERT_STATEMENT_COLON_ON_NEXT_LINE" value="true" />
     <option name="IF_BRACE_FORCE" value="1" />
+    <option name="FIELD_ANNOTATION_WRAP" value="5" />
     <option name="PARAMETER_ANNOTATION_WRAP" value="5" />
     <option name="VARIABLE_ANNOTATION_WRAP" value="5" />
     <option name="ENUM_CONSTANTS_WRAP" value="2" />
