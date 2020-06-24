@@ -26,7 +26,9 @@
   </HTMLCodeStyleSettings>
   <JavaCodeStyleSettings>
     <option name="VISIBILITY" value="EscalateVisible" />
-    <option name="ANNOTATION_PARAMETER_WRAP" value="1" />
+    <option name="REPLACE_INSTANCEOF_AND_CAST" value="true" />
+    <option name="ANNOTATION_PARAMETER_WRAP" value="5" />
+    <option name="ALIGN_MULTILINE_ANNOTATION_PARAMETERS" value="true" />
     <option name="INSERT_INNER_CLASS_IMPORTS" value="true" />
     <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="2" />
     <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="1" />
@@ -41,6 +43,7 @@
         <package name="javax.swing" withSubpackages="false" static="false" />
       </value>
     </option>
+    <option name="RECORD_COMPONENTS_WRAP" value="5" />
     <option name="JD_DO_NOT_WRAP_ONE_LINE_COMMENTS" value="true" />
   </JavaCodeStyleSettings>
   <XML>
@@ -56,6 +59,7 @@
   <codeStyleSettings language="JAVA">
     <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
     <option name="LINE_COMMENT_ADD_SPACE" value="true" />
+    <option name="KEEP_LINE_BREAKS" value="false" />
     <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
     <option name="KEEP_CONTROL_STATEMENT_IN_ONE_LINE" value="false" />
     <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="1" />
@@ -66,6 +70,7 @@
     <option name="BLANK_LINES_BEFORE_CLASS_END" value="1" />
     <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
     <option name="ALIGN_MULTILINE_TERNARY_OPERATION" value="true" />
+    <option name="ALIGN_CONSECUTIVE_ASSIGNMENTS" value="true" />
     <option name="SPACE_AFTER_TYPE_CAST" value="false" />
     <option name="CALL_PARAMETERS_WRAP" value="1" />
     <option name="METHOD_PARAMETERS_WRAP" value="1" />
@@ -75,21 +80,20 @@
     <option name="EXTENDS_KEYWORD_WRAP" value="1" />
     <option name="THROWS_KEYWORD_WRAP" value="1" />
     <option name="METHOD_CALL_CHAIN_WRAP" value="1" />
-    <option name="WRAP_FIRST_METHOD_IN_CALL_CHAIN" value="true" />
     <option name="BINARY_OPERATION_WRAP" value="1" />
     <option name="TERNARY_OPERATION_WRAP" value="1" />
     <option name="TERNARY_OPERATION_SIGNS_ON_NEXT_LINE" value="true" />
-    <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
-    <option name="KEEP_MULTIPLE_EXPRESSIONS_IN_ONE_LINE" value="true" />
     <option name="FOR_STATEMENT_WRAP" value="1" />
     <option name="ARRAY_INITIALIZER_WRAP" value="1" />
     <option name="ASSIGNMENT_WRAP" value="1" />
     <option name="PLACE_ASSIGNMENT_SIGN_ON_NEXT_LINE" value="true" />
     <option name="ASSERT_STATEMENT_WRAP" value="1" />
     <option name="ASSERT_STATEMENT_COLON_ON_NEXT_LINE" value="true" />
-    <option name="PARAMETER_ANNOTATION_WRAP" value="1" />
-    <option name="VARIABLE_ANNOTATION_WRAP" value="1" />
-    <option name="ENUM_CONSTANTS_WRAP" value="1" />
+    <option name="IF_BRACE_FORCE" value="1" />
+    <option name="PARAMETER_ANNOTATION_WRAP" value="5" />
+    <option name="VARIABLE_ANNOTATION_WRAP" value="5" />
+    <option name="ENUM_CONSTANTS_WRAP" value="2" />
+    <option name="WRAP_ON_TYPING" value="0" />
     <arrangement>
       <groups>
         <group>

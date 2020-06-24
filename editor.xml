@@ -58,31 +58,31 @@
       <option name="BACKGROUND" value="ff0000" />
       <option name="FONT_TYPE" value="3" />
     </pattern>
-    <pattern icon="question" useCustomColors="true" case-sensitive="true" pattern="\b(INFO )\b.*">
+    <pattern icon="question" useCustomColors="true" pattern="\b(INFO )\b.*">
       <option name="FOREGROUND" value="eff00" />
       <option name="FONT_TYPE" value="2" />
     </pattern>
-    <pattern useCustomColors="true" case-sensitive="true" pattern="\b(TT)\b.*\b(TT)">
+    <pattern useCustomColors="true" pattern="\b(TT)\b.*\b(TT)">
       <option name="FOREGROUND" value="242424" />
       <option name="BACKGROUND" value="f4ffa7" />
       <option name="FONT_TYPE" value="1" />
     </pattern>
-    <pattern useCustomColors="true" case-sensitive="true" pattern="\b(T1)\b.*\b(1T)">
+    <pattern useCustomColors="true" pattern="\b(T1)\b.*\b(1T)">
       <option name="FOREGROUND" value="353535" />
       <option name="BACKGROUND" value="ffffff" />
       <option name="FONT_TYPE" value="1" />
     </pattern>
-    <pattern useCustomColors="true" case-sensitive="true" pattern="\b(T2)\b.*\b(2T)">
+    <pattern useCustomColors="true" pattern="\b(T2)\b.*\b(2T)">
       <option name="FOREGROUND" value="353535" />
       <option name="BACKGROUND" value="b0e9ff" />
       <option name="FONT_TYPE" value="3" />
     </pattern>
-    <pattern useCustomColors="true" case-sensitive="true" pattern="\b(T3)\b.*\b(3T)">
+    <pattern useCustomColors="true" pattern="\b(T3)\b.*\b(3T)">
       <option name="FOREGROUND" value="353535" />
       <option name="BACKGROUND" value="ffde8f" />
       <option name="FONT_TYPE" value="2" />
     </pattern>
-    <pattern useCustomColors="true" case-sensitive="true" pattern="\b(T4)\b.*\b(4T)">
+    <pattern useCustomColors="true" pattern="\b(T4)\b.*\b(4T)">
       <option name="FOREGROUND" value="353535" />
       <option name="BACKGROUND" value="aba394" />
       <option name="FONT_TYPE" value="2" />
