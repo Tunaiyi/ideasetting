@@ -1,8 +1,4 @@
 <application>
-  <component name="DependencyUISettings">
-    <option name="UI_FLATTEN_PACKAGES" value="false" />
-    <option name="SCOPE_TYPE" value="file" />
-  </component>
   <component name="UISettings">
     <option name="COLOR_BLINDNESS" value="deuteranopia" />
     <option name="CONSOLE_COMMAND_HISTORY_LIMIT" value="1000" />
@@ -15,6 +11,5 @@
     <option name="OVERRIDE_CONSOLE_CYCLE_BUFFER_SIZE" value="true" />
     <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
     <option name="SHOW_MAIN_TOOLBAR" value="true" />
-    <option name="CONTRAST_SCROLLBARS" value="true" />
   </component>
 </application>

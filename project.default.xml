@@ -32,6 +32,11 @@
         </option>
       </component>
       <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" />
+      <component name="ProjectViewState">
+        <option name="hideEmptyMiddlePackages" value="true" />
+        <option name="showLibraryContents" value="true" />
+        <option name="showVisibilityIcons" value="true" />
+      </component>
       <component name="PropertiesComponent">
         <property name="last_opened_file_path" value="/Applications/VisualVM.app/Contents/MacOS/visualvm" />
         <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />

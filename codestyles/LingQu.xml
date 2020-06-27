@@ -1,4 +1,4 @@
-<code_scheme name="Indra" version="173">
+<code_scheme name="LingQu" version="173">
   <option name="LINE_SEPARATOR" value="&#10;" />
   <option name="VISIBILITY" value="EscalateVisible" />
   <option name="USE_EXTERNAL_ANNOTATIONS" value="true" />
@@ -8,9 +8,9 @@
   <option name="PACKAGES_TO_USE_IMPORT_ON_DEMAND">
     <value>
       <package name="java.awt" withSubpackages="false" static="false" />
-      <package name="com.tny" withSubpackages="true" static="false" />
-      <package name="com.lq" withSubpackages="true" static="false" />
-      <package name="com.tny.game.suite" withSubpackages="true" static="false" />
+      <package name="com.tny.*" withSubpackages="true" static="false" />
+      <package name="com.lq.*" withSubpackages="true" static="false" />
+      <package name="com.tny.game.suite.*" withSubpackages="true" static="false" />
       <package name="javax.swing" withSubpackages="false" static="false" />
     </value>
   </option>
@@ -26,25 +26,21 @@
   </HTMLCodeStyleSettings>
   <JavaCodeStyleSettings>
     <option name="VISIBILITY" value="EscalateVisible" />
-    <option name="REPLACE_INSTANCEOF_AND_CAST" value="true" />
     <option name="INSERT_INNER_CLASS_IMPORTS" value="true" />
-    <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="500" />
-    <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="500" />
+    <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="2" />
+    <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="1" />
     <option name="PACKAGES_TO_USE_IMPORT_ON_DEMAND">
       <value>
         <package name="java.awt" withSubpackages="false" static="false" />
-        <package name="com.tny" withSubpackages="true" static="false" />
-        <package name="com.lq" withSubpackages="true" static="false" />
-        <package name="com.tny.game" withSubpackages="true" static="false" />
+        <package name="org.junit" withSubpackages="true" static="true" />
+        <package name="org.junit" withSubpackages="true" static="false" />
+        <package name="com.tny.*" withSubpackages="true" static="false" />
+        <package name="com.lq.*" withSubpackages="true" static="false" />
+        <package name="com.tny.game.*" withSubpackages="true" static="false" />
         <package name="javax.swing" withSubpackages="false" static="false" />
       </value>
     </option>
-    <option name="JD_KEEP_INVALID_TAGS" value="false" />
-    <option name="JD_KEEP_EMPTY_EXCEPTION" value="false" />
   </JavaCodeStyleSettings>
-  <Properties>
-    <option name="KEEP_BLANK_LINES" value="true" />
-  </Properties>
   <XML>
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
